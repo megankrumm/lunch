@@ -36,7 +36,7 @@ body {
 .header h1 {
   padding-top: 88px;
   font-family: "proxima-nova", "helvetica neue", helvetica, arial, geneva, sans-serif;
-  background: url("/images/logo.png") center top no-repeat;
+  background: url("/images/SM_logo.png") center top no-repeat;
   font-size: 1.625em;
   letter-spacing: 6px;
 }
