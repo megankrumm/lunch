@@ -1,21 +1,38 @@
 {
-  "name":    "ohirun",
+  "name": "ohirun",
   "version": "0.0.1",
-
   "dependencies": {
-    "async":           "0.1.x",
-    "coffee-script":   "1.2.x",
-    "express":         "2.5.x",
-    "jade":            "0.26.x",
-    "stylus":          "0.26.x",
-    "nib":             "0.4.x",
-    "ical":            "0.0.6",
-    "moment":          "2.0.0",
-    "marked":          "0.2.8",
-    "nodemon":         "0.6.18"
+    "async": "0.1.x",
+    "coffee-script": "1.2.x",
+    "express": "2.5.x",
+    "jade": "0.26.x",
+    "stylus": "0.26.x",
+    "nib": "0.4.x",
+    "ical": "0.0.6",
+    "moment": "2.0.0",
+    "marked": "0.2.8",
+    "nodemon": "0.6.18"
   },
   "engines": {
     "node": "0.8.x",
-    "npm":  "1.2.x"
-  }
+    "npm": "1.2.x"
+  },
+  "description": "What's for lunch at Heroku this week? Find out at [lunch.herokai.com](http://lunch.herokai.com), install the [Heroku Lunch CLI plugin](https://github.com/max/heroku-lunch), or build your own _thingamajig_ with the [API](http://lunch.herokai.com/lunches.json):",
+  "main": "web.js",
+  "devDependencies": {
+    "coffee-script": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/megankrumm/lunch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/megankrumm/lunch/issues"
+  },
+  "homepage": "https://github.com/megankrumm/lunch"
 }
